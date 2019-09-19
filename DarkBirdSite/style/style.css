@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body{
+    background-color: rgb(52, 56, 61);
+}
+
+/*-----<index.html>-----*/
+
+.authForm{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgb(28, 30, 33);
+    padding: 40px;
+    border-radius: 8px;
+    margin-left: -170px;
+    margin-top:  -250px;
+}
+
+.links{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.links .link:first-child{
+    margin-right: 20px;
+}
+
+.link{
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+.checkedLink{
+    border-bottom: 1px #0266ff solid;
+}
+
+.hideForm{
+    display: none;
+}
+
+.label{
+    text-transform: uppercase;
+    color: whitesmoke;  
+}
+
+.authInput{
+    background: rgb(28, 30, 33);
+    color: rgb(52, 56, 61);
+    margin-top: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 3px 14px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 218px;
+}
+
+.authBtn{
+    background: rgb(16,89,255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 17px;
+    color: whitesmoke;
+    width: 250px;
+}
+
+/*-----</index.html>-----*/
+
+/*-----<messenger.html>-----*/
+
+.container{
+    
+}
+
+.conversations{
+    width: 320px;
+    border: 2px solid whitesmoke;
+    height: 99.5vh;
+}
+
+.searchUser{
+    background: #51555a;
+}
+
+.searchInput{
+    background: rgb(28, 30, 33);
+    color: rgb(52, 56, 61);
+    font-size: 18px;
+    padding: 3px 14px;
+    border: none;
+    border-radius: 25px;
+    margin: 5px;
+    width: 230px;
+}
